@@ -21,17 +21,17 @@ return (
               </button>
             </li>
             <li>
-                <Link to='/' onClick={() => setIsOpen(!isOpen)}>
+                <Link to='/react-page/' onClick={() => setIsOpen(!isOpen)}>
                 Inicio
                 </Link>
               </li>
             <li>
-                <Link to='/projetos' onClick={() => setIsOpen(!isOpen)}>
+                <Link to='/react-page/projetos' onClick={() => setIsOpen(!isOpen)}>
                     Projetos
                 </Link>
             </li>
             <li>
-                <Link to='/contato' onClick={() => setIsOpen(!isOpen)}>
+                <Link to='/react-page/contato' onClick={() => setIsOpen(!isOpen)}>
                     Contato
                 </Link>
             </li>
