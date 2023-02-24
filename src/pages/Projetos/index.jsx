@@ -1,4 +1,5 @@
-import {Container, Title, Box, ProjectList} from './styled'
+import {Title, Box, ProjectList} from './styled'
+import { Container } from '../../Styles/GlobalStyle'
 import {FaGithubSquare} from 'react-icons/fa'
 import React from 'react'
 const Projetos = () => {
@@ -15,6 +16,8 @@ const Projetos = () => {
             </div>
         </ProjectList>
         </Box>
+        
+
       </Container>
     );
   };

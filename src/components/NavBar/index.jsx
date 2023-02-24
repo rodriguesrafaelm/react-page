@@ -5,15 +5,15 @@ const Navbar = () => {
     return (
       <NavContainer>
         <NavLinks>
-          <NavLink to={'/react-page/'}>
+          <NavLink to={'/'}>
             Inicio
             <div><span><FaHome/></span></div>
             </NavLink>
-          <NavLink to="/react-page/projetos">
+          <NavLink to="/projetos">
             Projetos
             <div><span><FaGithubAlt/></span></div>
           </NavLink>
-          <NavLink to={'/react-page/contato'}>
+          <NavLink to={'/contato'}>
             +Contato
             <div><span><FaMailBulk/></span></div>
           </NavLink>

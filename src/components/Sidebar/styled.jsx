@@ -34,7 +34,7 @@ export const StyledButton = styled.button`
 export const StyledNav = styled.nav`
   ul {
     list-style: none;
-    padding: 40% 0 0 0;
+    padding: 10% 0 0 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -42,11 +42,10 @@ export const StyledNav = styled.nav`
     background: black;
     height: 100vh;
     width: 100vw;
-    gap: 30px;
     li {
-        padding: 5% 10%;
+        padding: 5% 10% 4% 10%;
+        margin: 3%;
         background: #242424 ;
-        width: 10%;
         display: flex;
         justify-content: center;
         border-radius: 9px;

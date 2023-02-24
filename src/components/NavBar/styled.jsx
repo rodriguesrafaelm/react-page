@@ -29,9 +29,10 @@ export const NavLinks = styled.ul`
 
 export const NavLink = styled(Link)`
   padding: 20px 50px;
-  border-radius: 7px;
+  border-radius: 12px;
   transition: all 0.3s;
   font-size: 20px;
+  background: #202020;
   div {
     position: relative;
     display: none;

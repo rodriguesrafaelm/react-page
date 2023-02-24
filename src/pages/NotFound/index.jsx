@@ -1,4 +1,5 @@
-import {Container} from './styled'
+
+import { Container } from '../../Styles/GlobalStyle'
 import React from 'react'
 const NotFound = () => {
     return (

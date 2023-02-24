@@ -1,5 +1,7 @@
-import {Container, Description, ElementosLista, Elementos, Title, Box} from './styled'
+import {Description, ElementosLista, Elementos, Title, Box} from './styled'
+import { Container } from '../../Styles/GlobalStyle'
 import {FaGithub, FaLinkedin, FaDiscord} from 'react-icons/fa'
+
 import React from 'react'
 const Home = () => {
     return (
@@ -26,6 +28,7 @@ const Home = () => {
           </Elementos>
         </ElementosLista>
         </Box>
+
       </Container>
     );
   };

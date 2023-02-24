@@ -3,7 +3,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 10% 0 10% 0;
   background-color: #ee5801;
   height: 50vh;
   h3 {
@@ -19,13 +19,22 @@ export const Container = styled.div`
 export const Box = styled.div`
   background: #242424;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 30px;
-  height: 30vh;
+  gap: 5%;
+  height: 40vh;
   width: 400px;
+
   @media (max-width: 768px) {
    height: 40vh;
+   
+  
   }
-`
+
+`;
 
 export const Title = styled.h1`
   font-size: 32px;
@@ -54,7 +63,9 @@ export const ElementosLista = styled.ul`
   margin: 0;
   padding: 12px 0 0 0;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
   transition: all 0.2s;
   &:hover{
     transform: translate(0%, 15%) scale(1.2);
@@ -72,7 +83,7 @@ export const Elementos = styled.li`
   font-size: 80px;
   
   &:hover {
-    transform: scale(1.5) rotate(-5deg);
+    transform: scale(1.5) ;
   }  
   
   @media (max-width: 768px) {

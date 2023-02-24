@@ -1,5 +1,6 @@
-import {Container, Title, Box, ProjectList} from './styled'
-import {FaRegEnvelope, FaLinkedinIn} from 'react-icons/fa'
+import {Title, Box, ProjectList} from './styled'
+import { Container } from '../../Styles/GlobalStyle';
+import {FaRegEnvelope} from 'react-icons/fa'
 import React from 'react'
 const Contato = () => {
     return (
@@ -13,6 +14,7 @@ const Contato = () => {
             </div>
         </ProjectList>
         </Box>
+        
       </Container>
     );
   };
