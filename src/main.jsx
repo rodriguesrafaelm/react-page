@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter basename='/react-page'>
       < Navbar />
       < Sidebar />
-      <Routes>
+      <Routes >
        <Route path='/' element={<Home />} />
        <Route path='/contato' element={<Contato />} />
        <Route path='/projetos' element={<Projetos />} />
