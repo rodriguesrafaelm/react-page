@@ -12,7 +12,7 @@ import NotFound from './pages/NotFound'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/react-page'>
       < Navbar />
       < Sidebar />
       <Routes>
